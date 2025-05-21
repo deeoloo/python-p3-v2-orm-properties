@@ -14,8 +14,8 @@ class Department:
 
     def __repr__(self):
         return f"<Department {self.id}: {self.name}, {self.location}>"
-    
-     @property
+
+    @property
     def name(self):
         return self._name
 

@@ -2,7 +2,6 @@
 from __init__ import CURSOR, CONN
 from department import Department
 
-
 class Employee:
 
     # Dictionary of objects saved to the database.
@@ -19,7 +18,7 @@ class Employee:
             f"<Employee {self.id}: {self.name}, {self.job_title}, " +
             f"Department ID: {self.department_id}>"
         )
-    
+
     @property
     def name(self):
         return self._name
